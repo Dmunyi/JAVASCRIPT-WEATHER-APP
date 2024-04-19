@@ -1,0 +1,111 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: greenyellow;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.weatherApp {
+    margin: 30px;
+
+}
+
+.cityDisplay{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: 2px solid black;
+    margin: 20px;
+    width: 400px;
+
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.card {
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    padding: 25px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.5rem;
+   margin: 5px 0;   
+
+}
+
+
+.cityDisplay, .temperatureDisplay {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    width: 400px;
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    border-radius: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    
+
+}
+
+.humidityDisplay {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    width: 400px;
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    border-radius: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.descriptionDisplay {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+.weatherEmoji {
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.80);
+}
+
